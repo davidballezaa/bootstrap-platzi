@@ -1,0 +1,41 @@
+#footer {
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+}
+#footer a {
+  color: rgb(255, 255, 255);
+}
+
+.carousel-inner {
+  position: relative;
+}
+
+.carousel-item {
+  max-height: 500px;
+}
+
+.carousel-item img {
+  object-fit: fill;
+}
+
+.carousel-inner .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.overlay .container {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.overlay .overlay__first-button {
+  display: flex;
+  justify-content: end;
+}
+
