@@ -14,7 +14,8 @@
 }
 
 .carousel-item img {
-  object-fit: fill;
+  object-fit: cover;
+  object-position: 50% 50%;
 }
 
 .carousel-inner .overlay {
@@ -37,5 +38,9 @@
 .overlay .overlay__first-button {
   display: flex;
   justify-content: end;
+}
+
+.card {
+  margin: 30px 0 30px 0;
 }
 
