@@ -29,15 +29,7 @@
 }
 
 .overlay .container {
-  display: flex;
   height: 100%;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.overlay .overlay__first-button {
-  display: flex;
-  justify-content: end;
 }
 
 .card {
