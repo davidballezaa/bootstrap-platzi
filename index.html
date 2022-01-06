@@ -25,7 +25,7 @@
   <body
     data-bs-spy="scroll"
     data-bs-target="#topNav"
-    data-bs-offset="0"
+    data-bs-offset="57"
     class="scrollspy-example"
     tabindex="0"
     style="position: relative"
@@ -137,7 +137,7 @@
             </li>
             <li class="nav-item">
               <a
-                href="#"
+                href="#convierteteForm"
                 class="nav-link"
                 >Conviertete</a
               >
@@ -412,6 +412,114 @@
             </a>
           </div>
         </div>
+      </div>
+    </section>
+
+    <!-- FORMULARIO -->
+    <section
+      id="convierteteForm"
+      class="my-5"
+    >
+      <div
+        class="container d-flex flex-column align-items-center"
+      >
+        <div class="row">
+          <div
+            class="col text-uppercase text-center"
+          >
+            <small
+              >conviertete en un</small
+            >
+            <h2>orador</h2>
+          </div>
+        </div>
+        <form
+          action=""
+          class="row my-3 w-100"
+          style="max-width: 950px"
+        >
+          <div class="col-12 col-md-6">
+            <label
+              for="emailInput"
+              class="form-label"
+              >Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="emailInput"
+              class="form-control"
+              placeholder="me@example.com"
+            />
+          </div>
+
+          <div class="col-12 col-md-6">
+            <label
+              for="nombreInput"
+              class="form-label"
+              >Nombre
+            </label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombreInput"
+              class="form-control"
+              placeholder="David Balleza"
+            />
+          </div>
+          <div class="col-12 col-md-6">
+            <label
+              for="ciudadInput"
+              class="form-label"
+              >Ciudad</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="ciudadInput"
+            />
+          </div>
+          <div class="col-12 col-md-4">
+            <label
+              for="estadoInput"
+              class="form-label"
+              >Estado</label
+            >
+            <select
+              id="estadoInput"
+              name="estado"
+              class="form-select"
+            >
+              <option selected disabled>
+                choose
+              </option>
+              <option value="EDOMEX">
+                Estado de Mexico
+              </option>
+              <option value="CDMX">
+                Ciudad de Mexico
+              </option>
+            </select>
+          </div>
+          <div class="col-12 col-md-2">
+            <label
+              for="zipInput"
+              class="form-label"
+              >Zip</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="zipInput"
+            />
+          </div>
+          <button
+            type="submit"
+            class="btn btn-primary d-block mx-auto w-50 mt-3"
+          >
+            Enviar
+          </button>
+        </form>
       </div>
     </section>
 

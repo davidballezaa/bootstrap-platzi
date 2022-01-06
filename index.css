@@ -1,5 +1,10 @@
 #footer {
-  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
+  background: linear-gradient(
+    90deg,
+    #1c3643,
+    #273b47 25%,
+    #1e5372
+  );
 }
 #footer a {
   color: rgb(255, 255, 255);
@@ -36,3 +41,6 @@
   margin: 30px 0 30px 0;
 }
 
+#convierteteForm form > * {
+  margin-top: 0.5rem;
+}
