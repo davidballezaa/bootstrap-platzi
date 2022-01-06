@@ -10,10 +10,6 @@
   color: rgb(255, 255, 255);
 }
 
-.carousel-inner {
-  position: relative;
-}
-
 .carousel-item {
   max-height: 500px;
 }
@@ -25,20 +21,16 @@
 
 .carousel-inner .overlay {
   position: absolute;
-  top: 0;
+  top: 57px;
   bottom: 0;
-  right: 0;
   left: 0;
+  right: 0;
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
 }
 
 .overlay .container {
   height: 100%;
-}
-
-.card {
-  margin: 30px 0 30px 0;
 }
 
 #convierteteForm form > * {
