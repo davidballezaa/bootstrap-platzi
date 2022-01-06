@@ -11,12 +11,8 @@
 }
 
 .carousel-item {
-  max-height: 500px;
-}
-
-.carousel-item img {
-  object-fit: cover;
-  object-position: 50% 50%;
+  height: 400px;
+  background-position: center;
 }
 
 .carousel-inner .overlay {
@@ -35,4 +31,10 @@
 
 #convierteteForm form > * {
   margin-top: 0.5rem;
+}
+
+@media (min-width: 500px) {
+  .carousel-item {
+    height: 500px;
+  }
 }
